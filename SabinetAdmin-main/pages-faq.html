@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Pages / F.A.Q - Sabinet</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.gstatic.com" rel="preconnect">
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+
+  <link href="assets/vendor/simple-datatables/style.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header fixed-top d-flex align-items-center">
+
+    <div class="d-flex align-items-center justify-content-between">
+      <a href="index.html" class="logo d-flex align-items-center">
+        <img src="assets/img/logo.png" alt="">
+        <span class="d-none d-lg-block">Sabinet Admin</span>
+      </a>
+      <i class="bi bi-list toggle-sidebar-btn"></i>
+    </div><!-- End Logo -->
+
+    <div class="search-bar">
+      <form class="search-form d-flex align-items-center" method="POST" action="#">
+        <input type="text" name="query" placeholder="Search" title="Enter search keyword">
+        <button type="submit" title="Search"><i class="bi bi-search"></i></button>
+      </form>
+    </div><!-- End Search Bar -->
+
+    <nav class="header-nav ms-auto">
+      <ul class="d-flex align-items-center">
+
+        <li class="nav-item d-block d-lg-none">
+          <a class="nav-link nav-icon search-bar-toggle " href="#">
+            <i class="bi bi-search"></i>
+          </a>
+        </li><!-- End Search Icon-->
+
+
+        <li class="nav-item dropdown pe-3">
+
+          <a class="nav-link nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown">
+            <img src="assets/img/profile-img.jpg" alt="Profile" class="rounded-circle">
+            <span class="d-none d-md-block dropdown-toggle ps-2">S. John Philip</span>
+          </a><!-- End Profile Iamge Icon -->
+
+          <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
+            <li class="dropdown-header">
+              <h6>John Philip Sabinet</h6>
+              <span>Admin</span>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li>
+              <a class="dropdown-item d-flex align-items-center" href="users-profile.html">
+                <i class="bi bi-person"></i>
+                <span>My Profile</span>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li>
+              <a class="dropdown-item d-flex align-items-center" href="users-profile.html">
+                <i class="bi bi-gear"></i>
+                <span>Account Settings</span>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li>
+              <a class="dropdown-item d-flex align-items-center" href="pages-faq.html">
+                <i class="bi bi-question-circle"></i>
+                <span>Need Help?</span>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li>
+              <a class="dropdown-item d-flex align-items-center" href="pages-login.html">
+                <i class="bi bi-box-arrow-right"></i>
+                <span>Sign Out</span>
+              </a>
+            </li>
+
+          </ul><!-- End Profile Dropdown Items -->
+        </li><!-- End Profile Nav -->
+
+      </ul>
+    </nav><!-- End Icons Navigation -->
+
+  </header><!-- End Header -->
+
+  <!-- ======= Sidebar ======= -->
+  <aside id="sidebar" class="sidebar">
+
+    <ul class="sidebar-nav" id="sidebar-nav">
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="index.html">
+          <i class="bi bi-grid"></i>
+          <span>Dashboard</span>
+        </a>
+      </li><!-- End Dashboard Nav -->
+
+      <!-- End Charts Nav -->
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="users-profile.html">
+          <i class="bi bi-person"></i>
+          <span>Profile</span>
+        </a>
+      </li><!-- End Profile Page Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="pages-shop.html">
+          <i class="bi bi-shop"></i>
+          <span>Shop</span>
+        </a>
+      </li><!-- End Shopping Page Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="pages-database.html">
+          <i class="bi bi-database"></i>
+          <span>Database</span>
+        </a>
+      </li><!-- End Database Page Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link " href="pages-faq.html">
+          <i class="bi bi-question-circle"></i>
+          <span>F.A.Q</span>
+        </a>
+      </li><!-- End F.A.Q Page Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="pages-contact.html">
+          <i class="bi bi-envelope"></i>
+          <span>Contact</span>
+        </a>
+      </li><!-- End Contact Page Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="pages-groupmates.html">
+          <i class="bi bi-people"></i>
+          <span>Groupmates</span>
+        </a>
+      </li><!-- End Groupmates Page Nav -->
+
+      <!-- <li class="nav-item">
+        <a class="nav-link collapsed" href="pages-register.html">
+          <i class="bi bi-card-list"></i>
+          <span>Register</span>
+        </a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="pages-login.html">
+          <i class="bi bi-box-arrow-in-right"></i>
+          <span>Login</span>
+        </a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="pages-error-404.html">
+          <i class="bi bi-dash-circle"></i>
+          <span>Error 404</span>
+        </a>
+      </li> -->
+
+
+
+    </ul>
+
+  </aside><!-- End Sidebar-->
+
+  <main id="main" class="main">
+
+    <div class="pagetitle">
+      <h1>Frequently Asked Questions</h1>
+      <nav>
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+          <li class="breadcrumb-item">Pages</li>
+          <li class="breadcrumb-item active">Frequently Asked Questions</li>
+        </ol>
+      </nav>
+    </div><!-- End Page Title -->
+
+    <section class="section faq">
+      <div class="row">
+        <div class="col-lg-6">
+
+          <div class="card basic">
+            <div class="card-body">
+              <h5 class="card-title">Basic Questions</h5>
+
+              <div>
+                <h6>1. What are the essential components of a website?</h6>
+                <p>There are several essential components of a website that are necessary for it to function properly
+                  and provide a good user experience. These components include a domain name, web hosting, a content
+                  management system (CMS) or website builder, a responsive design that works well on mobile devices,
+                  clear navigation menus, high-quality content, and appropriate calls-to-action (CTAs). Depending on the
+                  website's goals and objectives, additional components such as e-commerce functionality, social media
+                  integration, and search engine optimization (SEO) may also be required.</p>
+              </div>
+
+              <div class="pt-2">
+                <h6>2. How long does it take to develop a website?</h6>
+                <p>The timeline for developing a website can vary depending on the scope and complexity of the project.
+                  A simple website with basic features can be developed in a few weeks, while a more complex website
+                  with advanced features and custom functionality can take several months. Additionally, factors like
+                  the size of the development team, the availability of resources, and the quality of communication
+                  between the development team and the client can also impact the timeline.</p>
+              </div>
+
+              <div class="pt-2">
+                <h6>3. What is the difference between a custom website and a template website?</h6>
+                <p>A custom website is developed from scratch to meet the specific requirements and needs of the client.
+                  The design, features, and functionality are all tailored to the client's unique business goals and
+                  user needs. A template website, on the other hand, uses a pre-designed template that can be customized
+                  with the client's branding and content. While a template website is usually faster and cheaper to
+                  develop, it may not offer the same level of customization and flexibility as a custom website.</p>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- F.A.Q Group 1 -->
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Common Questions about making a Website</h5>
+
+              <div class="accordion accordion-flush" id="faq-group-1">
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" data-bs-target="#faqsOne-1" type="button"
+                      data-bs-toggle="collapse">
+                      Why should I create a website for my project or business?
+                    </button>
+                  </h2>
+                  <div id="faqsOne-1" class="accordion-collapse collapse" data-bs-parent="#faq-group-1">
+                    <div class="accordion-body">
+                      Creating a website is important because it allows you to establish a strong online presence and
+                      reach a wider audience. A website can provide valuable information about your project or business,
+                      showcase your work or products, and allow potential customers or collaborators to contact you
+                      easily.
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" data-bs-target="#faqsOne-2" type="button"
+                      data-bs-toggle="collapse">
+                      How can a website help me showcase my skills and work experience?
+                    </button>
+                  </h2>
+                  <div id="faqsOne-2" class="accordion-collapse collapse" data-bs-parent="#faq-group-1">
+                    <div class="accordion-body">
+                      A website can serve as a digital portfolio that showcases your skills, work experience, and
+                      accomplishments to potential employers or clients. By creating a professional and polished website
+                      that highlights your best work, you can demonstrate your expertise and stand out from other
+                      candidates.
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" data-bs-target="#faqsOne-3" type="button"
+                      data-bs-toggle="collapse">
+                      What are the benefits of having a responsive website?
+                    </button>
+                  </h2>
+                  <div id="faqsOne-3" class="accordion-collapse collapse" data-bs-parent="#faq-group-1">
+                    <div class="accordion-body">
+                      A responsive website is one that can adapt its layout and design to fit different screen sizes and
+                      devices, such as smartphones, tablets, and desktops. A responsive website is important because it
+                      can provide a better user experience for visitors, regardless of their device. Additionally,
+                      responsive websites are favored by search engines and can improve your website's search engine
+                      optimization (SEO) and ranking.
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" data-bs-target="#faqsOne-4" type="button"
+                      data-bs-toggle="collapse">
+                      How can a website help me build my personal brand?
+                    </button>
+                  </h2>
+                  <div id="faqsOne-4" class="accordion-collapse collapse" data-bs-parent="#faq-group-1">
+                    <div class="accordion-body">
+                      A website can help you establish and promote your personal brand by providing a platform to
+                      showcase your skills, share your thoughts and ideas, and connect with others in your industry or
+                      field. By creating a website that reflects your values, personality, and expertise, you can build
+                      a strong and recognizable personal brand that can help you advance your career or achieve your
+                      goals.
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" data-bs-target="#faqsOne-5" type="button"
+                      data-bs-toggle="collapse">
+                      How can a website help me communicate and collaborate with others?
+                    </button>
+                  </h2>
+                  <div id="faqsOne-5" class="accordion-collapse collapse" data-bs-parent="#faq-group-1">
+                    <div class="accordion-body">
+                      A website can serve as a hub for communication and collaboration with others, such as project
+                      partners, team members, or clients. By using tools like contact forms, messaging platforms, and
+                      collaborative documents, you can streamline communication, share ideas and feedback, and work
+                      together more effectively.
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+          </div><!-- End F.A.Q Group 1 -->
+
+        </div>
+
+        <div class="col-lg-6">
+
+          <!-- F.A.Q Group 2 -->
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Common Questions about Bootstrap</h5>
+
+              <div class="accordion accordion-flush" id="faq-group-2">
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" data-bs-target="#faqsTwo-1" type="button"
+                      data-bs-toggle="collapse">
+                      What is Bootstrap, and why should I use it for my website?
+                    </button>
+                  </h2>
+                  <div id="faqsTwo-1" class="accordion-collapse collapse" data-bs-parent="#faq-group-2">
+                    <div class="accordion-body">
+                      Bootstrap is a popular front-end web development framework that makes it easy to create responsive
+                      and mobile-friendly websites. It provides a set of pre-designed templates, CSS styles, and
+                      JavaScript components that can be used to build a website quickly and efficiently. Using Bootstrap
+                      can save you a lot of time and effort compared to coding everything from scratch, and it ensures
+                      that your website looks great on all devices.
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" data-bs-target="#faqsTwo-2" type="button"
+                      data-bs-toggle="collapse">
+                      Do I need to know HTML and CSS to use Bootstrap?
+                    </button>
+                  </h2>
+                  <div id="faqsTwo-2" class="accordion-collapse collapse" data-bs-parent="#faq-group-2">
+                    <div class="accordion-body">
+                      While it's helpful to have a basic understanding of HTML and CSS, you don't necessarily need to be
+                      an expert to use Bootstrap. Bootstrap provides a lot of pre-designed code and templates that you
+                      can customize to fit your needs. However, having some knowledge of HTML and CSS will help you
+                      understand how the code works and make it easier to customize your website.
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" data-bs-target="#faqsTwo-3" type="button"
+                      data-bs-toggle="collapse">
+                      Can I use Bootstrap to create custom designs for my website?
+                    </button>
+                  </h2>
+                  <div id="faqsTwo-3" class="accordion-collapse collapse" data-bs-parent="#faq-group-2">
+                    <div class="accordion-body">
+                      Yes, you can use Bootstrap to create custom designs for your website. While Bootstrap provides a
+                      lot of pre-designed templates and components, you can also customize the code to create a unique
+                      look and feel for your website. Additionally, you can use CSS to further customize the design and
+                      make it your own.
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" data-bs-target="#faqsTwo-4" type="button"
+                      data-bs-toggle="collapse">
+                      Is Bootstrap free to use?
+                    </button>
+                  </h2>
+                  <div id="faqsTwo-4" class="accordion-collapse collapse" data-bs-parent="#faq-group-2">
+                    <div class="accordion-body">
+                      Yes, Bootstrap is completely free and open-source. You can download it from the official website
+                      and use it for both personal and commercial projects. There are also many free and paid Bootstrap
+                      templates and themes available online that you can use as a starting point for your website.
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" data-bs-target="#faqsTwo-5" type="button"
+                      data-bs-toggle="collapse">
+                      Where can I learn more about using Bootstrap?
+                    </button>
+                  </h2>
+                  <div id="faqsTwo-5" class="accordion-collapse collapse" data-bs-parent="#faq-group-2">
+                    <div class="accordion-body">
+                      There are many resources available online for learning how to use Bootstrap, including official
+                      documentation, tutorials, and online courses. Some popular resources include the <a
+                        href="https://getbootstrap.com/docs/5.3/getting-started/introduction/">Bootstrap
+                        website</a>, <a href="https://www.w3schools.com/">W3Schools</a>, <a
+                        href="https://www.codecademy.com/">Codecademy</a>, and <a
+                        href="https://www.udemy.com/courses/free/">Udemy</a>. Additionally, there are many online
+                      communities and
+                      forums where you can ask questions and get help from other developers.
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+          </div><!-- End F.A.Q Group 2 -->
+
+          <!-- F.A.Q Group 3 -->
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Common Questions about BootstrapMade</h5>
+
+              <div class="accordion accordion-flush" id="faq-group-3">
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" data-bs-target="#faqsThree-1" type="button"
+                      data-bs-toggle="collapse">
+                      What is BootstrapMade?
+                    </button>
+                  </h2>
+                  <div id="faqsThree-1" class="accordion-collapse collapse" data-bs-parent="#faq-group-3">
+                    <div class="accordion-body">
+                      BootstrapMade is a website that offers a collection of free and premium Bootstrap templates that
+                      can be used to create websites with modern and responsive designs. The templates are built using
+                      the Bootstrap framework, which is a popular front-end development tool for creating mobile-first
+                      websites and web applications.
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" data-bs-target="#faqsThree-2" type="button"
+                      data-bs-toggle="collapse">
+                      How do I install and use a BootstrapMade template?
+                    </button>
+                  </h2>
+                  <div id="faqsThree-2" class="accordion-collapse collapse" data-bs-parent="#faq-group-3">
+                    <div class="accordion-body">
+                      To use a BootstrapMade template, you will first need to download the template files and extract
+                      them to your computer. Then, you can open the index.html file in a code editor and modify the
+                      content and styles to fit your needs. You can also customize the template using the Bootstrap
+                      framework's built-in components and classes.
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" data-bs-target="#faqsThree-3" type="button"
+                      data-bs-toggle="collapse">
+                      Can I use a BootstrapMade template for my college project?
+                    </button>
+                  </h2>
+                  <div id="faqsThree-3" class="accordion-collapse collapse" data-bs-parent="#faq-group-3">
+                    <div class="accordion-body">
+                      Yes, you can use a BootstrapMade template for your college project as long as you follow the
+                      license terms and conditions. Most BootstrapMade templates are licensed under the Creative Commons
+                      Attribution 3.0 License, which allows you to use, modify, and distribute the template as long as
+                      you give appropriate credit to the original creator.
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" data-bs-target="#faqsThree-4" type="button"
+                      data-bs-toggle="collapse">
+                      How can I make my website responsive using BootstrapMade?
+                    </button>
+                  </h2>
+                  <div id="faqsThree-4" class="accordion-collapse collapse" data-bs-parent="#faq-group-3">
+                    <div class="accordion-body">
+                      BootstrapMade templates are designed to be responsive, meaning that they adjust their layout and
+                      design to fit different screen sizes and devices. To make sure that your website is fully
+                      responsive, you should use the Bootstrap grid system to create flexible and adaptive layouts, and
+                      make use of responsive typography, images, and media.
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" data-bs-target="#faqsThree-5" type="button"
+                      data-bs-toggle="collapse">
+                      Where can I find help and support for using BootstrapMade templates?
+                    </button>
+                  </h2>
+                  <div id="faqsThree-5" class="accordion-collapse collapse" data-bs-parent="#faq-group-3">
+                    <div class="accordion-body">
+                      If you have any questions or issues with using a BootstrapMade template, you can find help and
+                      support by checking the <a
+                        href="https://getbootstrap.com/docs/5.3/getting-started/introduction/">Bootstrap
+                        documentation</a>, posting on the Bootstrap forum, or contacting the
+                      BootstrapMade <a href="https://bootstrapmade.com/contact/">support team</a>. You can also find
+                      helpful resources and tutorials online that can
+                      guide you through the process of creating a website with BootstrapMade templates.
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+          </div><!-- End F.A.Q Group 3 -->
+
+          <!-- F.A.Q Group 4 -->
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">FAQs about the website</h5>
+
+              <div class="accordion accordion-flush" id="faq-group-4">
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" data-bs-target="#faqsFour-1" type="button"
+                      data-bs-toggle="collapse">
+                      Are you the one who created this?
+                    </button>
+                  </h2>
+                  <div id="faqsFour-1" class="accordion-collapse collapse" data-bs-parent="#faq-group-4">
+                    <div class="accordion-body">
+                      Yes and No.<br><br>
+                      Yes, I'm the sole person in this project but I did not created this website myself
+                      from scratch.<br><br>
+                      And No, because I use the <a
+                        href="https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/">"NiceAdmin Template"
+                      </a> and premade components from <a href="https://getbootstrap.com/">Bootstrap.</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" data-bs-target="#faqsFour-2" type="button"
+                      data-bs-toggle="collapse">
+                      What is the most difficult part since you started this project?
+                    </button>
+                  </h2>
+                  <div id="faqsFour-2" class="accordion-collapse collapse" data-bs-parent="#faq-group-4">
+                    <div class="accordion-body">
+                      For me the most difficult one is that aligning the premade components from bootsrap because you
+                      need to make sure it's align so that the aesthetic of it isn't ruined by minor error from my side.
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" data-bs-target="#faqsFour-3" type="button"
+                      data-bs-toggle="collapse">
+                      Can I use a BootstrapMade template for my college project?
+                    </button>
+                  </h2>
+                  <div id="faqsFour-3" class="accordion-collapse collapse" data-bs-parent="#faq-group-4">
+                    <div class="accordion-body">
+                      Yes, you can use a BootstrapMade template for your college project as long as you follow the
+                      license terms and conditions. Most BootstrapMade templates are licensed under the Creative Commons
+                      Attribution 3.0 License, which allows you to use, modify, and distribute the template as long as
+                      you give appropriate credit to the original creator.
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" data-bs-target="#faqsFour-4" type="button"
+                      data-bs-toggle="collapse">
+                      What is the main purpose of this website?
+                    </button>
+                  </h2>
+                  <div id="faqsFour-4" class="accordion-collapse collapse" data-bs-parent="#faq-group-4">
+                    <div class="accordion-body">
+                      To simulate a Shop management system. though it's crude in some parts we're making sure to hit the
+                      satisfactory mark to pass this subject with it.
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" data-bs-target="#faqsFour-5" type="button"
+                      data-bs-toggle="collapse">
+                      Where can I find help and support for using BootstrapMade templates?
+                    </button>
+                  </h2>
+                  <div id="faqsFour-5" class="accordion-collapse collapse" data-bs-parent="#faq-group-4">
+                    <div class="accordion-body">
+                      If you have any questions or issues with using a BootstrapMade template, you can find help and
+                      support by checking the <a
+                        href="https://getbootstrap.com/docs/5.3/getting-started/introduction/">Bootstrap
+                        documentation</a>, posting on the Bootstrap forum, or contacting the
+                      BootstrapMade <a href="https://bootstrapmade.com/contact/">support team</a>. You can also find
+                      helpful resources and tutorials online that can
+                      guide you through the process of creating a website with BootstrapMade templates.
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+          </div><!-- End F.A.Q Group 4 -->
+
+
+        </div>
+
+      </div>
+    </section>
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+    <div class="copyright">
+      &copy; Copyright <a href="https://github.com/TeachDian/SabinetAdmin" class="fw-bold text-dark">Sabinet Admin</a>.
+      All Rights Reserved
+    </div>
+    <div class="credits">
+      Designed using <a href="https://getbootstrap.com/">Bootstrap </a> and <a
+        href="https://bootstrapmade.com/">BootstrapMade</a>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/simple-datatables/simple-datatables.js"></script>
+
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
